@@ -1,22 +1,23 @@
 /*****
- * Edit this line to have your name.
+ Sneha Savani
  ******/
 public class GitDemo {
-
+    
     private double previousNumber;
-
+    private double reverseNum;
+    
     public GitDemo() {
         previousNumber = 1;
     }
-
+    
     /*****
      * This function should add 'num' to 'previousNumber' and return the sum.
     *****/
     public double addNumber(double num) {
         System.out.print("Add num to previousNumber");
-        return 0;
+        return num + previousNumber;
     }
-
+    
     /*****
      * This function should calculate the factorial of 'num' and return the resulting value.
      * i.e. if num = 4,
@@ -31,7 +32,8 @@ public class GitDemo {
         return factorialNumber;
     }
 
-    /*****
+    
+   /*****
      * This function should reverse 'num' and return the resulting value.
      * i.e. if num = 1234
      *  the function will return 4321
@@ -48,5 +50,5 @@ public class GitDemo {
         reverseNum = newNumber;
         return reverseNum;
     }
-
+  
 }
